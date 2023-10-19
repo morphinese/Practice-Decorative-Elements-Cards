@@ -1,0 +1,114 @@
+:root {
+	--blue-color: rgb(81, 81, 220);
+	--white-color: #ffffff;
+	--body-color: #ebe3e3;
+	--grey-color: grey;
+
+	--hover-blue-color: rgb(49, 49, 187);
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--body-color);
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.page {
+}
+
+.page-home {
+}
+
+.page-home-cards {
+}
+
+.cards-home {
+	margin-top: 100px;
+}
+
+.cards-home-container {
+}
+
+.cards-home-list {
+}
+
+.cards-home-item {
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.cards-home-head {
+}
+
+/*! Card head */
+
+.card-head {
+	background-color: var(--blue-color);
+	color: var(--white-color);
+	font-weight: 500;
+	padding: 30px;
+
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-head-currency {
+	font-size: 20px;
+}
+
+.card-head-value {
+	display: flex;
+	align-items: flex-end;
+}
+
+.card-head-number {
+	font-size: 48px;
+}
+
+.card-head-period {
+	text-transform: uppercase;
+}
+
+/*! Card body */
+.cards-home-body {
+}
+
+.card-body {
+	background-color: var(--white-color);
+	padding: 30px;
+}
+
+.card-body-dates {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.card-body-date {
+	text-transform: uppercase;
+	color: var(--grey-color);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-body-text {
+}
+
+.card-body-text:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.card-body-line {
+	height: 1px;
+	width: 50%;
+	background-color: var(--grey-color);
+}
